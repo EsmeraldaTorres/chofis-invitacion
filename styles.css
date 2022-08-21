@@ -1,0 +1,511 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Moanas";
+}
+@font-face {
+  font-family: Moanas;
+  src: url(./Moanas.ttf);
+}
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+}
+.font-acme {
+  font-family: "Acme", sans-serif;
+}
+.font-edu {
+  font-family: "Edu QLD Beginner", cursive;
+}
+/* audio */
+.player-audio {
+  display: none;
+}
+.player-icon {
+  font-size: 2rem;
+  box-shadow: rgba(49, 48, 48, 0.934) 0px 54px 55px,
+    rgba(245, 229, 229, 0.959) 0px -12px 30px,
+    rgba(221, 218, 218, 0.12) 0px 4px 6px,
+    rgba(255, 252, 252, 0.205) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 100%;
+}
+.player-btn {
+  bottom: 2rem;
+  right: 2rem;
+  position: fixed;
+  justify-content: end;
+  align-items: flex-end;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  justify-content: center;
+  z-index: 8;
+}
+.hide {
+  display: none;
+}
+.player-btn:hover {
+  cursor: pointer;
+}
+/* SOBRE */
+.sobre {
+  height: 100vh;
+  background-image: url("./assets/img/chofis/moanabarco.png");
+  width: 100vw;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.z-index-3 {
+  position: absolute;
+  height: 50vh;
+  top: 10vh;
+  z-index: 3;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.z-index-2 {
+  position: absolute;
+  bottom: 10vh;
+  height: 60vh;
+  z-index: 2;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.btn-open {
+  position: absolute;
+  z-index: 4;
+  background-color: rgba(240, 255, 255, 0);
+  border: none;
+  text-decoration: none;
+  padding-top: 6rem;
+}
+.hide {
+  display: none;
+}
+.visibility {
+  visibility: hidden;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 1rem;
+}
+/* inivtacion */
+.fondo {
+  height: min-content;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/img/chofis/fondomoana.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 9;
+}
+.img1 {
+  width: 80%;
+}
+.text-white {
+  text-shadow: 3px 1px 1px rgba(20, 17, 17, 0.747);
+}
+.shadow {
+  text-shadow: 3px 1px 3px rgba(246, 246, 246, 0.747);
+}
+.display-1 {
+  font-size: 3rem !important;
+  text-shadow: 3px 1px 1px rgba(20, 17, 17, 0.747);
+}
+.display-2 {
+  font-size: 3rem !important;
+  text-shadow: 3px 1px 1px rgba(20, 17, 17, 0.747);
+}
+.home {
+  height: 100vh;
+}
+.tira {
+  width: 200px;
+  height: 5vh;
+  margin-top: 5rem;
+}
+.tira2 {
+  height: 5vh;
+  display: none;
+  margin-top: 5rem;
+}
+.home2 {
+  height: 100%;
+  padding-bottom: 8rem;
+}
+.home4 {
+  padding: 4rem 2rem;
+  height: 100%;
+}
+/* mi familia */
+.home3 {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/img/chofis/background\ \(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.w-80 {
+  width: 80%;
+}
+.txt-aqua {
+  color: #22b9df;
+}
+/* frase */
+.bg-aqua {
+  background-color: rgb(34, 217, 223);
+}
+.bg-aqua2 {
+  background-color: rgb(120, 209, 218);
+}
+.home-frase {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(120, 209, 218);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+.phrase {
+  width: 80%;
+}
+.animate-text {
+  opacity: 0;
+  transition: all 2.5s;
+}
+.appear-text {
+  animation: appear-text 2s;
+}
+@keyframes appear-text {
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.animate-text {
+  --animate-duration: 2.5s;
+}
+.img2 {
+  width: 100%;
+}
+/* fecha */
+.img-fecha {
+  height: 40vh;
+  width: 100%;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cuenta {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.faltan {
+  text-shadow: 1px 1px 2px rgba(20, 17, 17, 0.507);
+}
+.text-fecha {
+  font-size: 3rem;
+  color: white;
+}
+.cuenta-regresiva {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px rgba(20, 17, 17, 0.507);
+}
+.txt-pink {
+  font-size: 3rem;
+  color: rgba(223, 104, 110, 0.979);
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+}
+.display-6 {
+  font-size: 2rem;
+}
+/* ubicacion */
+.home5 {
+  height: 60vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.274),
+      rgba(5, 7, 12, 0.171)
+    ),
+    url("./assets/img/chofis/moanabebe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.ubicacion {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(120, 209, 218);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  font-family: "Edu QLD Beginner", cursive;
+  padding: 1.5rem 1.5rem 4rem 1.5rem;
+}
+.animate-right {
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.appear-right {
+  animation: appear-right 1.5s;
+}
+@keyframes appear-right {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* fotos */
+.window-back {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/img/chofis/chofi4.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.window {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("./assets/img/chofis/chofi3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.animate-image {
+  opacity: 0;
+  transition: all ease 0.8s;
+}
+.appear-image {
+  animation: appear-image 0.9s;
+}
+.home7 {
+  height: 100%;
+  z-index: 2;
+  padding: 3.5rem;
+}
+.carrousel-img {
+  width: 220px;
+  height: 170px;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+/* asistencia */
+.home8 {
+  height: 60vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.274),
+      rgba(5, 7, 12, 0.171)
+    ),
+    url("./assets/img/chofis/jabalí.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+/* regalos */
+@keyframes appear-image {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.bg-pink {
+  background-color: rgba(216, 152, 167, 0.763);
+}
+.home9 {
+  height: 90vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+      rgba(5, 7, 12, 0.274),
+      rgba(5, 7, 12, 0.171)
+    ),
+    url("./assets/img/chofis/chofi1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.display-4 {
+  font-size: 2.5rem !important;
+}
+button {
+  padding: 1rem;
+}
+.appear-left {
+  animation: appear-left 1s;
+}
+
+.animate-left {
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+@keyframes appear-left {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+footer a {
+  color: rgb(221, 213, 220);
+  text-shadow: 1px 1px 1px rgba(20, 17, 17, 0.747);
+}
+
+@media (min-width: 320px) {
+  .img1 {
+    width: 85%;
+  }
+  .img2 {
+    width: 95%;
+  }
+  .carrousel-img {
+    width: 270px;
+    height: 210px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .tira {
+    width: 300px;
+  }
+  .display-1 {
+    font-size: 4rem !important;
+  }
+}
+
+@media (min-width: 470px) {
+  .img1 {
+    width: 60%;
+  }
+  .tira {
+    width: 400px;
+  }
+  .display-1 {
+    font-size: 5rem !important;
+  }
+  .phrase {
+    width: 70%;
+  }
+  .img2 {
+    width: 70%;
+  }
+  .display-6 {
+    font-size: 2.5rem;
+  }
+  .carrousel-img {
+    width: 370px;
+    height: 310px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .display-4 {
+    font-size: 3rem !important;
+  }
+}
+@media (min-width: 760px) {
+  .img1 {
+    width: 40%;
+  }
+  .display-1 {
+    font-size: 5.5rem !important;
+  }
+  .phrase {
+    width: 60%;
+  }
+  .img2 {
+    width: 60%;
+  }
+  .cuenta {
+    width: 60%;
+  }
+  .ubicacion {
+    height: 50vh;
+  }
+  .carrousel-img {
+    width: 370px;
+    height: 310px;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .display-4 {
+    font-size: 3.2rem !important;
+  }
+}
+@media (min-width: 1020px) {
+  .img1 {
+    width: 40%;
+  }
+  .tira2 {
+    display: initial;
+  }
+  .display-1 {
+    font-size: 6.5rem !important;
+  }
+  .phrase {
+    width: 50%;
+  }
+  .img2 {
+    width: 40%;
+  }
+  .cuenta {
+    width: 50%;
+  }
+  .display-4 {
+    font-size: 3.6rem !important;
+  }
+}
