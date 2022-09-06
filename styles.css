@@ -299,7 +299,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/chofis/chofi4.jpeg");
+  background-image: url("./assets/img/chofis/pexels-love-leura-5010748.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -309,7 +309,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url("./assets/img/chofis/chofi3.jpeg");
+  background-image: url("./assets/img/chofis/pexels-catalina-carvajal-herrera-13340866.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -362,6 +362,9 @@
 .bg-pink {
   background-color: rgba(216, 152, 167, 0.763);
 }
+.pt-8 {
+  padding-top: 8rem;
+}
 .home9 {
   height: 90vh;
   width: 100vw;
@@ -371,7 +374,7 @@
       rgba(5, 7, 12, 0.274),
       rgba(5, 7, 12, 0.171)
     ),
-    url("./assets/img/chofis/chofi1.jpeg");
+    url("./assets/img/chofis/pexels-visual-tag-mx-5361071.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
