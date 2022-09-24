@@ -93,6 +93,8 @@
   border: none;
   text-decoration: none;
   padding-top: 6rem;
+  box-shadow: none !important;
+  transition: none !important;
 }
 .hide {
   display: none;
@@ -139,6 +141,11 @@
 .home {
   height: 100vh;
 }
+
+.btn-open:focus {
+  outline: none;
+}
+
 .tira {
   width: 200px;
   height: 5vh;
