@@ -109,7 +109,7 @@
 }
 /* inivtacion */
 .fondo {
-  height: 100vh;
+  height: max-content;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -117,9 +117,8 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   position: relative;
-  z-index: 9;
+  /* z-index: 9; */
 }
 .ir-al-mapa {
   display: flex !important;
