@@ -116,10 +116,16 @@
   background-image: url("./assets/img/chofis/fondomoana.png");
   background-attachment: fixed;
   background-size: cover;
+  -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+  -moz-background-size: cover; /* Para Firefox */
+  -o-background-size: cover; /* Para Opera */
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   z-index: 9;
+}
+.ir-al-mapa {
+  display: flex !important;
 }
 .img1 {
   width: 80%;
@@ -413,7 +419,9 @@ button {
 
 footer a {
   color: rgb(221, 213, 220);
-  text-shadow: 1px 1px 1px rgba(20, 17, 17, 0.747);
+  font-weight: 600;
+  color: rgb(18 133 86);
+  /* text-shadow: 1px 1px 1px rgba(20, 17, 17, 0.747); */
 }
 
 @media (min-width: 320px) {
