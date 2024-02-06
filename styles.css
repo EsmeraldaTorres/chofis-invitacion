@@ -114,7 +114,7 @@
   margin: 0;
   padding: 0;
   background-image: url("./assets/img/chofis/fondomoana.png");
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
