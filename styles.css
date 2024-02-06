@@ -114,14 +114,14 @@
   margin: 0;
   padding: 0;
   background-image: url("./assets/img/chofis/fondomoana.png");
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   -webkit-background-attachment: fixed;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
   -moz-background-size: cover; /* Para Firefox */
   -o-background-size: cover; /* Para Opera */
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  position: static;
   z-index: 9;
 }
 .ir-al-mapa {
