@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: Moanas;
-  src: url(./Moanas.ttf);
+  src: url("./Moanas.ttf");
 }
 .font-manrope {
   font-family: "Manrope", sans-serif;
